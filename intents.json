@@ -19,7 +19,20 @@
     "Todo en orden. ¿Qué necesitas hoy?",
     "¡Hola! Estoy listo para ayudarte. ¿En qué puedo asistirte?"
   ]
-},{"tag": "gracias", "patterns": ["Gracias", "Muchas gracias", "Te lo agradezco"], "responses": ["De nada", "\u00a1No hay problema!", "A la orden"]}, {"tag": "nombre", "patterns": ["\u00bfC\u00f3mo te llamas?", "\u00bfCu\u00e1l es tu nombre?", "Dime tu nombre"], "responses": ["Soy un IntelliPrice, tu asistente virtual", "Me llamo IntelliPrice", "Soy IntelliPrice, encantado de ayudarte"]}, 
+}, {
+  "tag": "bot_function",
+  "patterns": [
+    "¿Que haces?",
+    "¿Cual es tu funcion?",
+    "¿Que puedes hacer?",
+    "¿Que sabes hacer?",
+    "¿Para que sirves?"
+  ],
+  "responses": [
+    "Mi función es comparar precios de productos para ayudarte a encontrar la mejor oferta disponible."
+  ]
+}
+,{"tag": "gracias", "patterns": ["Gracias", "Muchas gracias", "Te lo agradezco"], "responses": ["De nada", "\u00a1No hay problema!", "A la orden"]}, {"tag": "nombre", "patterns": ["\u00bfC\u00f3mo te llamas?", "¿\u00bfCu\u00e1l es tu nombre?", "Dime tu nombre"], "responses": ["Soy un IntelliPrice, tu asistente virtual", "Me llamo IntelliPrice", "Soy IntelliPrice, encantado de ayudarte"]}, 
 {"tag": "greeting", "patterns": ["Hola", "Hey", "Buenos d\u00edas", "Buenas tardes"], "responses": ["Hola", "Hola, \u00bfc\u00f3mo puedo ayudarte?", "Hola, \u00bfqu\u00e9 necesitas?"]}, {"tag": "product_query", "patterns": ["\u00bfCu\u00e1l es el precio de [producto]?", "Precio de [producto]", "\u00bfCu\u00e1nto cuesta [producto]?", "\u00bfQu\u00e9 precio tiene [producto]?", "\u00bfPuedes decirme el precio de [producto]?", "\u00bfA cu\u00e1nto est\u00e1 [producto]?", "\u00bfQu\u00e9 vale [producto]?", "\u00bfCu\u00e1nto debo pagar por [producto]?", "Quiero saber el precio de [producto]", "Dime el precio de [producto]", "Me interesa el precio de [producto]", "Necesito saber el precio de [producto]"], "responses": ["D\u00e9jame buscar el precio para ti."]},{
     
     "tag": "help",
